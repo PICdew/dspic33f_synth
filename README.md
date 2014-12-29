@@ -16,5 +16,7 @@ With each timer interrupt, the ADSR parameters are evaluated and the voice gain 
 The instrument maintains a "program" that includes a pointer to the wavetable, and ADSR
 parameters for keying events. 
 
-When midi events are received (or synthesized by pressing the instrument's "key"), a voice
+When midi events are received (or synthesized by pressing the instrument's "key"), the "next" voice is
+updated with the parameters of that "patch" and the voice plays out until the ADSR loop takes the envelope back
+down to zero.
 
