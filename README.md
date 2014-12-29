@@ -3,6 +3,8 @@ dspic33f_synth
 
 A wavetable synthesizer for the Microchip Corp dsPIC33FJ128GP802 16-bit micro
 
+This is a Microchip MPLABX project in C.
+
 
 This application uses the dsPIC33FJ128GP802 audio DAC to produce audio at 32Ksamples/s.
 
